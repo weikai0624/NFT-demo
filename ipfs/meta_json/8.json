@@ -1,0 +1,10 @@
+{
+    "image": "ipfs://{meta_images_CID_in_pinata}/8.PNG",
+    "name": "Weikai NFT #8",
+    "description": "For demo",
+    "attributes": [
+      {
+        "color": "red"
+      }
+    ]
+}

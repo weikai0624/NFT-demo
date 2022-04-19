@@ -1,0 +1,10 @@
+{
+    "image": "ipfs://{meta_images_CID_in_pinata}/6.PNG",
+    "name": "Weikai NFT #6",
+    "description": "For demo",
+    "attributes": [
+      {
+        "color": "dark pink"
+      }
+    ]
+}
