@@ -1,2 +1,5 @@
 *.DS_Store
 web_python/env/
+web3_python/config.json
+ipfs/meta_jsons/*.json
+web3_python/config.json

@@ -8,7 +8,7 @@
 3. DEPLOY & RUN TRANSACTIONS -> environment "Injected Web3"
 4. Connect Rinkeby network (testnet) Account 
 5. select "CONCRACT" WeikaiMeta - contracts
-6. setting variable "initBaseURL" = { [ipfs/meta_jsons](ipfs/meta_jsons) CID in ipfs} 
+6. setting variable "initBaseURL" = { [ipfs/meta_jsons](ipfs/meta_jsons) CID in ipfs} like "ipfs://QmYGik7xW2____3fhHYG/"
 7. Depoly
 
 ### IPFS 
