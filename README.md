@@ -1,13 +1,6 @@
 # NFT-demo
 
 ## How to Depoly
- 
-### IPFS 
-1. Open https://www.pinata.cloud/ to register 
-2. "upload folder" select [ipfs/meta_images](ipfs/meta_images)
-3. copy step2 CID to [ipfs/meta_json](ipfs/meta_json) all json
-4. "upload folder" select [ipfs/meta_jsons](ipfs/meta_jsons)
-5. keep step 4 CID
 
 ### Remix 
 1. Go https://remix.ethereum.org/ to depoly
@@ -18,7 +11,20 @@
 6. setting variable "initBaseURL" = { [ipfs/meta_jsons](ipfs/meta_jsons) CID in ipfs} 
 7. Depoly
 
+### IPFS 
+1. Open https://www.pinata.cloud/ to register 
+2. "upload folder" select [ipfs/meta_images](ipfs/meta_images)
+3. copy step2 CID to [web3_python/condig.json](web3_python/condif.json) "IPFS_IMAGES_CID"
+4. excute Script 
+
+    ```python create_ipfs.py```
+
+    create [ipfs/meta_jsons](ipfs/meta_jsons)
+5. "upload folder" select [ipfs/meta_jsons](ipfs/meta_jsons)
+6. setting variable "initBaseURL" = { [ipfs/meta_jsons](ipfs/meta_jsons) CID in ipfs} in [Remix step 6](#Remix)
+
 ### Mint
-1. input "VALUE" = 10000000 Gwei
-2. Find "mintWeikaiNTF" and input mint quantity -> tcransact
-3. Open https://testnets.opensea.io/ to check yout NTF!!
+1. setting [web3_python/config.json](web3_python/config.json)
+
+    ``` python mint.py```
+2. Successful Mint!!
